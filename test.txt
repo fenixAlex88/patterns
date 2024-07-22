@@ -1,0 +1,3 @@
+Hello, Java!
+Welcome to Java intern!
+Java in the morning, Java everywhere!!!
