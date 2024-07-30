@@ -2,13 +2,13 @@ package t;
 
 import java.util.Scanner;
 
-public class firstTask {
-
+public class first {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int t = scanner.nextInt();
+        int n = scanner.nextInt();
         scanner.close();
-        int occupiedCells = t == 1 ? 1 : (t - 1) * 4;
-        System.out.println(occupiedCells);
+        int k = n - 100 + 1;
+        long sum = k * (100L + n) / 2;
+        System.out.println(sum);
     }
 }
